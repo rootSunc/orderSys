@@ -1,8 +1,9 @@
 spring:
   application:
-    name: config-client
+    name: order
+  profiles:
+    active: dev
   cloud:
     config:
-      env: default
       uri: http://localhost:8888
       label: master

@@ -20,8 +20,14 @@ public class OrderHandler {
     @Value("${info.foo}")
     private String msg;
 
+    @Value("${server.port}")
+    private int port;
+
     @RequestMapping("/")
+//    public String index() {
+//        return "test msg is + " + msg;
+//    }
     public String index() {
-        return "test msg is + " + msg;
+        return "the port of module Menu is " + port;
     }
 }

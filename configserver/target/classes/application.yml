@@ -7,5 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rootSunc/springcloudconfigdemo
-          search-paths: server-config
+          uri: https://github.com/rootSunc/orderSys
+          search-paths: serverConfig
